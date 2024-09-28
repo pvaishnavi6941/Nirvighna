@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "500294643922",
+    "project_id": "nirvigna-19a10",
+    "storage_bucket": "nirvigna-19a10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500294643922:android:0abcde368c2295c0163d0b",
+        "android_client_info": {
+          "package_name": "com.example.nirvigna"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTE_kDnq8mMxh50Fsx09BaO2udkaZuUsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

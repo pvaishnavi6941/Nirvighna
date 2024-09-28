@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".thankyou">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/success"
+        android:text="Successfully completed!"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#174219"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text11"
+        android:textSize="20dp"
+        android:text="We appreciate your time and effort."
+        android:layout_below="@id/success"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#174219" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thanks for using NIRVIGHNA!"
+        android:textColor="#174219"
+        android:layout_below="@id/text11"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text11"
+        android:layout_marginTop="-74dp"
+        android:src="@drawable/img_7" />
+
+
+</RelativeLayout>

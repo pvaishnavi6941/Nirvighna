@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".payment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/getpaid"
+            android:text="GET PAID"
+            android:textSize="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:textColor="#174219"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/paid"
+            android:layout_below="@id/getpaid"
+            android:text="Get paid after waste is weighed."
+            android:textColor="#174219"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:layout_below="@id/paid"
+            android:text="Account Name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp" />
+
+        <EditText
+            android:id="@+id/full_name"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text"
+            android:hint="Full Name"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginTop="15dp"
+            android:padding="18dp"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/account_no"
+            android:layout_below="@id/full_name"
+            android:text="Account Number"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp" />
+
+        <EditText
+            android:id="@+id/text9"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/account_no"
+            android:hint="Enter your account number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginTop="15dp"
+            android:padding="18dp"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bank"
+            android:layout_below="@id/text9"
+            android:text="Bank Name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp" />
+
+        <EditText
+            android:id="@+id/text10"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bank"
+            android:hint="Name of Bank"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginTop="15dp"
+            android:padding="18dp"
+            android:inputType="text" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/proceed_button"
+            android:text="PROCEED"
+            android:backgroundTint="#174219"
+            android:layout_margin="30dp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
